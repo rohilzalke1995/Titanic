@@ -9,7 +9,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-
+#To read Titanic csv file
 df = pd.read_csv('Titanic.csv')
 
 df = df.drop(['Name', 'SibSp', 'Parch', 'Ticket', 'Cabin', 'Embarked', 'PassengerId'], axis = 'columns')
